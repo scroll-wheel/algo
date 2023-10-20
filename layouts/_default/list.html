@@ -1,0 +1,9 @@
+{{ define "main" }}
+<ul>
+    {{ range (where .Pages "Section" "!=" "") }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

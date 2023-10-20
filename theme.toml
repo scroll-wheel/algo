@@ -1,0 +1,12 @@
+name = "Algo"
+license = "MIT"
+licenselink = "https://github.com/SCROLLWH33L/algo/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/SCROLLWH33L/algo"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Alvin Nguyen"
+  homepage = "http://scrollwh33l.com"

@@ -1,0 +1,15 @@
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+pre {
+    padding: 1rem;
+    overflow: auto;
+}
