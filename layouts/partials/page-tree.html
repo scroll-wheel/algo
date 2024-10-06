@@ -1,0 +1,6 @@
+<ul>
+{{ range .Pages }}
+<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+{{- partial "page-tree.html" . -}}
+{{ end }}
+</ul>

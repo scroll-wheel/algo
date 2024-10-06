@@ -1,0 +1,9 @@
+<aside class="sidebar">
+<h2>{{ .Site.Title }}</h2>
+<ul>
+{{ range .Site.Sections }}
+<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+{{- partial "page-tree.html" . -}}
+{{ end }}
+</ul>
+</aside>

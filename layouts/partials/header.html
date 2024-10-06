@@ -1,1 +1,1 @@
-<h1>{{ .Title | markdownify }}</h1>
+<h1>{{ .Title | markdownify }} {{ if not (eq .WordCount 0) }}({{ .FuzzyWordCount }} words){{ end }}</h1>
